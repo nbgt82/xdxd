@@ -4,7 +4,7 @@
  $correo=$_POST["email"];;
  $mensaje=$_POST["message"];
  $contenido="Nombre: ".$nombre."\nCorreo: ".$correo."\nMensaje: ".$mensaje;
- mail($destino,"Contacto", $contenido);
+ mail($destino,$Contacto, $contenido);
  header("Location: registro.html");
 
 ?>
